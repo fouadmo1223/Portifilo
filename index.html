@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fouad Mohamed - Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fouad Mohamed</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Added row and alignment -->
+          <!-- Left Column: Your Info -->
+          <div class="col-md-6" data-aos="fade-right">
+            <h1>Fouad Mohamed</h1>
+            <p>
+              <span id="typed"></span>
+              <!-- Typing effect will appear here -->
+            </p>
+            <p>
+              Detail-oriented Software Engineer specializing in front-end
+              development with React.js. Skilled in designing and delivering
+              high-quality websites that cater to user and stakeholder needs.
+              Demonstrated expertise in software design, architecture, and
+              fostering team collaboration.
+            </p>
+            <div
+              class="d-flex align-baseline"
+              style="justify-content: space-around"
+            >
+              <!-- Updated Download CV Button -->
+              <a
+                href="./cv.pdf"
+                class="btn btn-cv"
+                download
+                onclick="openPdfInNewPage()"
+                >Download CV</a
+              >
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/fouad-mohamed-b7571623b/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/fouadmo1223" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="mailto:fm0850020@gmail.com"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="tel:01016218389"><i class="fas fa-phone"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Animated Image -->
+          <div class="col-md-6" data-aos="fade-left">
+            <div class="animated-image">
+              <!-- You can use an animated GIF, Lottie animation, or an SVG -->
+              <img
+                src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif"
+                alt="Animated Developer"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-section">
+        <div class="skill-category" data-aos="fade-right">
+          <h4>Technical Skills</h4>
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
+                  alt="HTML"
+                />
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+                  alt="CSS"
+                />
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                  alt="JavaScript"
+                />
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
+                  alt="Bootstrap"
+                />
+                <p>Bootstrap</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png"
+                  alt="React"
+                />
+                <p>React</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1260/1260667.png"
+                  alt="Redux"
+                />
+                <p>Redux</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png"
+                  alt="Git"
+                />
+                <p>Git</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+                  alt="jQuery"
+                />
+                <p>jQuery</p>
+              </div>
+            </div>
+            <!-- Add PHP Skill Here -->
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/919/919830.png"
+                  alt="PHP"
+                />
+                <p>PHP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-left">
+          <h4>Soft Skills</h4>
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2011/2011409.png"
+                  alt="Problem-solving"
+                />
+                <p>Problem-solving</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1534/1534939.png"
+                  alt="Teamwork"
+                />
+                <p>Teamwork</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1998/1998665.png"
+                  alt="Adaptability"
+                />
+                <p>Adaptability</p>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="skill-item">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/1872/1872876.png"
+                  alt="Time Management"
+                />
+                <p>Time Management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container my-5">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack Web Developer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Createvio Company</h6>
+              <p class="card-text">
+                - Used JavaScript, SQL, PHP, Bootstrap, and more to develop
+                app-solutions.<br />
+                - Increased website performance by optimizing front-end and
+                back-end code.<br />
+                - Applied responsive design principles for consistent display
+                across devices.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Front End Developer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">ITI</h6>
+              <p class="card-text">
+                - Utilized HTML, CSS, and JavaScript to create responsive web
+                pages.<br />
+                - Worked closely with UX/UI designers to translate designs into
+                functional web applications.<br />
+                - Used Git for version control.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+        <!-- FreeSmile Project -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">FreeSmile</h5>
+              <p class="card-text">
+                An innovative online platform connecting dental professionals
+                and patients, built with HTML, CSS, JavaScript, AOS, Bootstrap,
+                and AJAX.
+              </p>
+              <a
+                href="https://github.com/alimelgohary/alimelgohary.github.io"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#freeSmileModal"
+                >Perview</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Vue Landing Page -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Vue Landing Page</h5>
+              <p class="card-text">
+                A simple landing page designed using HTML, CSS, JavaScript,
+                Bootstrap, and FontAwesome.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/simple-page"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/simple-page"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Bond! Landing Page -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Bond! Landing Page</h5>
+              <p class="card-text">
+                A landing page showcasing team members and their roles, built
+                with HTML, CSS, JavaScript, Bootstrap, and jQuery.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/Bondi"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/Bondi/"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- To-Do App -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">To-Do App</h5>
+              <p class="card-text">
+                A task management app built with HTML, CSS, JavaScript,
+                Bootstrap, jQuery, and SweetAlert.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/To-Do"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/To-Do/"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Loan Registration -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Loan Registration</h5>
+              <p class="card-text">
+                A form for banks to customers who want to take a loan, built
+                with HTML, CSS, JS, React, SweetAlert, and Bootstrap.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/loan-Request"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/loan-Request"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- React To-Do App -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">ReacT To-Do App</h5>
+              <p class="card-text">
+                A task management app built with HTML, CSS, JavaScript,
+                Bootstrap, Reduex Toolkit,React,aletify, and SweetAlert.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/React-To-Do"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/React-To-Do/"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Simple Dashboard -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Simple Dashboard</h5>
+              <p class="card-text">
+                A dashboard for viewing customers, products, and categories,
+                built with React, MUI, --JsonServer--, Bootstrap, SweetAlert,
+                and DataTables.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/S-Dashboard"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#dashboardModal"
+                >Perview</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Cart</h5>
+              <p class="card-text">
+                A functional cart website with login functionality, built with
+                React, Redux Toolkit, SweetAlert, MUI, and Swiper.js.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/cart"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="https://fouadmo1223.github.io/cart"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Boutique -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Boutique</h5>
+              <p class="card-text">
+                An e-commerce website with a dashboard to control users,
+                products, cart, coupons, and requests, built with PHP,
+                PHPMailer, Alertify, SweetAlert, AOS, Animate.css, HTML, CSS,
+                JS, jQuery, and AJAX.
+              </p>
+              <a
+                href="https://github.com/fouadmo1223/boutique"
+                class="btn btn-primary"
+                >Repo</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#boutiqueModal"
+                >Perview</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+      <h2 class="section-title">Contact</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="contact-form" data-aos="fade-up">
+            <h3 class="text-center mb-4">Send Me a Message</h3>
+            <form action="https://formspree.io/f/xjkykgyd" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-control"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <!-- Honeypot Field (Hidden) -->
+              <input type="text" name="_gotcha" style="display: none" />
+              <!-- Redirect After Submission -->
+              <input
+                type="hidden"
+                name="_next"
+                value="https://yourwebsite.com/thank-you.html"
+              />
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Modal -->
+    <!-- FreeSmile Modal -->
+    <div
+      class="modal fade"
+      id="freeSmileModal"
+      tabindex="-1"
+      aria-labelledby="freeSmileModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="freeSmileModalLabel">
+              FreeSmile Project Demo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls width="100%">
+              <source src="./videos/Media1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dashboard Modal -->
+    <div
+      class="modal fade"
+      id="dashboardModal"
+      tabindex="-1"
+      aria-labelledby="dashboardModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dashboardModalLabel">
+              Simple Dashboard Project Demo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls width="100%">
+              <source src="./videos/dashboard.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boutique Modal -->
+    <div
+      class="modal fade"
+      id="boutiqueModal"
+      tabindex="-1"
+      aria-labelledby="boutiqueModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="boutiqueModalLabel">
+              Boutique Project Demo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls width="100%">
+              <source src="./videos/project 3.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Typed.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Bootstrap and AOS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var typed = new Typed("#typed", {
+          strings: ["Front-End Web Developer"], // Only one string to loop
+          typeSpeed: 50, // Typing speed in milliseconds
+          backSpeed: 30, // Backspacing speed in milliseconds
+          loop: true, // Loop the animation
+          showCursor: true, // Show blinking cursor
+          cursorChar: "|", // Cursor character
+        });
+      });
+      AOS.init();
+    </script>
+  </body>
+</html>
