@@ -297,16 +297,16 @@
 
     <div class="project-filters">
       <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="react">React</button>
       <button class="filter-btn" data-filter="javascript">JavaScript</button>
-      <button class="filter-btn" data-filter="php">PHP</button>
       <button class="filter-btn" data-filter="jquery">jQuery</button>
+      <button class="filter-btn" data-filter="react">React</button>
       <button class="filter-btn" data-filter="redux">Redux</button>
+      <button class="filter-btn" data-filter="php">PHP</button>
     </div>
 
     <div class="row">
       <!-- FreeSmile Project -->
-      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-category="javascript">
+      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-category="javascript jquery">
         <div class="project-card">
           <div class="project-img-container">
             <img src="imgs/freesmile.png" alt="FreeSmile Project" class="project-img">
@@ -332,6 +332,8 @@
           </div>
         </div>
       </div>
+
+      
 
       <!-- Boutique Project -->
       <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200" data-category="php jquery">
@@ -364,7 +366,37 @@
         </div>
       </div>
 
-      <!-- Dashboard with Auth -->
+      <!--E-Commerce Dashboard with Auth -->
+
+      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100" data-category="react php laravel">
+        <div class="project-card">
+          <div class="project-img-container">
+            <img src="imgs/freshCart.png" alt="Dashboard Project" class="project-img">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/fouadmo1223/Dashboard" class="project-btn project-btn-primary">Code</a>
+                <a href="#" class="project-btn project-btn-secondary" data-bs-toggle="modal" data-bs-target="#dashboard2Modal2">Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h5 class="project-title">Fresh Cart  with Auth and Admin Dashboard </h5>
+            <p class="project-description">
+             Fresh Cart WEbsite and Admin dashboard with authentication,and responsive design.
+            </p>
+            <div class="project-tech">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="tech-icon" title="PHP">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="tech-icon" title="MySQL">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icon" title="React">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" class="tech-icon" title="Redux">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" alt="Chart.js" class="tech-icon" title="Chart.js">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="Material UI" class="tech-icon" title="Material UI">
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <!-- Dashboard with Auth -->
 
       <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100" data-category="react redux">
         <div class="project-card">
@@ -695,6 +727,38 @@
           <div class="modal-body">
             <video controls width="100%">
               <source src="./videos/dashboard2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--Auth  Dashboard Modal -->
+    
+    <div
+      class="modal fade"
+      id="dashboard2Modal2"
+      tabindex="-1"
+      aria-labelledby="dashboard2Modal2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dashboard2Modal2">
+             Auth Dashboard Project Demo
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video controls width="100%">
+              <source src="./videos/freshCart.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
