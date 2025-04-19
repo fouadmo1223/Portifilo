@@ -4,7 +4,7 @@ Welcome to my portfolio website! This project showcases my skills, experience, a
 
 ## Live Demo
 
-Check out the live demo of the portfolio: [Portfolio Live Demo](https://fouadmo1223.github.io/portfolio)
+Check out the live demo of the portfolio: [Portfolio Live Demo](https://fouadmo1223.github.io/Portifilo/)
 
 ## Features
 
